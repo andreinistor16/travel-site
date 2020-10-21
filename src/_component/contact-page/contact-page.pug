@@ -1,0 +1,23 @@
+section#contact
+    .form-wrapper
+        header.form-head
+            h2 Contact Us
+        form(action="https://formspree.io/f/mleobnpl" method="POST")
+            .name-form
+                label(for="name") Name:
+                input(type="text", name="name")
+            .email-form
+                label(for="email") Email:
+                input(type="email" required name="_replyto")
+            button(type="submit" value="Send") Submit
+footer
+    .footer-wrapper
+        h5 Travelly &copy;
+        ul
+            li
+            a(href="#")
+            i.icon__twitter
+            a(href="#")
+            i.icon__youtube
+            a(href="#")
+            i.icon__instagram
